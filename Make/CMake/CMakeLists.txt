@@ -33,9 +33,8 @@ elseif(BUILD_BOOSTER)
   set(CMAKE_TOOLCHAIN_FILE "${CMAKE_CURRENT_SOURCE_DIR}/../CMake/BoosterToolchain.cmake")
 endif()
 
-if(NOT BUILD_NAO AND CMAKE_HOST_UNIX)
-  set(CMAKE_CXX_COMPILER clang++)
-endif()
+set(CMAKE_C_COMPILER clang)
+set(CMAKE_CXX_COMPILER clang++)
 
 project(B-Human LANGUAGES CXX)
 

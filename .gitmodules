@@ -3,7 +3,11 @@
   url = https://github.com/bhuman/CompiledNN.git
 [submodule "Util/SimRobot"]
   path = Util/SimRobot
-  url = https://github.com/bhuman/SimRobot.git
+  url = git@github.com:Leander-s/SimRobot.git
 [submodule "Util/pybind11"]
   path = Util/pybind11
   url = https://github.com/pybind/pybind11.git
+[submodule "Util/box2d"]
+	path = Util/box2d
+	url = https://github.com/erincatto/box2d
+	branch = v2.4.1
