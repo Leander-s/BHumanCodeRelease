@@ -11,6 +11,7 @@
 #undef FAIL
 #undef VERIFY
 
+#include <sstream>
 #include <string>
 
 /**
